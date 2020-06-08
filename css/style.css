@@ -1153,7 +1153,7 @@ input: -internal-autofill-selected {
     padding: 0rem !important}
 @media (max-width: 576px) {
     .main_menu .navbar-brand {
-    max-width: 120px}
+    max-width: 120px;}
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .main_menu .navbar-brand {
@@ -3739,7 +3739,7 @@ h1,h2,h3,h4,h5,h6 {
     background-size: cover}
 @media (max-width: 991px) {
     .breadcrumb_bg {
-    background-image: url(../img/tab_banner.jpg);
+    background-image: url(../img/breadcum_bg.png);
     background-position: left}
 }
 .breadcrumb {
@@ -3747,7 +3747,7 @@ h1,h2,h3,h4,h5,h6 {
     z-index: 1;
     background-color: transparent}
 .breadcrumb .breadcrumb_iner {
-    height: 600px;
+    height: 300px;
     width: 100%;
     display: table}
 .breadcrumb .breadcrumb_iner .breadcrumb_iner_item {
@@ -3757,7 +3757,7 @@ h1,h2,h3,h4,h5,h6 {
     color: #fff;
     font-size: 50px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-top: 30px;
     text-transform: capitalize}
 @media (max-width: 576px) {
     .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
