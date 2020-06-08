@@ -2559,6 +2559,8 @@ input: -internal-autofill-selected {
     text-align: center}
 .footer-area .copyright_part_text p {
     font-size: 13px}
+.footer-area .footer_1 img {
+    width:40%;}
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .footer-area .copyright_part_text {
@@ -3729,7 +3731,7 @@ h1,h2,h3,h4,h5,h6 {
 .modal-message .modal-dialog .modal-content .modal-header h2 {
     display: block;
     text-align: center;
-    padding-bottom: 10px}
+    padding-bottom: 0px}
 .modal-message .modal-dialog .modal-content .modal-header p {
     display: block}
 .breadcrumb_bg {
@@ -3742,7 +3744,7 @@ h1,h2,h3,h4,h5,h6 {
     background-image: url(../img/breadcum_bg.png);
     background-position: center;
 	background-size:100%;
-	margin-top:-85px}
+	margin-top:-110px}
 }
 .breadcrumb {
     position: relative;
