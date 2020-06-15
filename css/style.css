@@ -4,6 +4,8 @@ body {
     padding: 0;
     margin: 0;
     font-size: 14px}
+
+	
 .message_submit_form:focus {
     outline: none}
 input:hover,input:focus {
@@ -12,6 +14,7 @@ input:hover,input:focus {
     background-color: #f7f7f7}
 .section_padding {
     padding: 140px 0px}
+	
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .section_padding {
     padding: 80px 0px}
@@ -1191,7 +1194,7 @@ input: -internal-autofill-selected {
 .main_menu .main-menu-item ul li .nav-link {
     color: #fff;
     font-size: 16px;
-    padding: 40px 25px;
+    padding: 0px 25px;
     font-family: "Playfair Display",serif;
     line-height: 13px;
     text-transform: capitalize;
@@ -1230,7 +1233,7 @@ input: -internal-autofill-selected {
     .single_page_menu .navbar-collapse ul li .nav-link {
     color: #000 !important}
 .main_menu .navbar {
-    padding: 15px 0}
+    padding: 5px 0}
 .navbar-light .navbar-toggler {
     border-color: transparent;
     padding: 0}
