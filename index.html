@@ -19,22 +19,30 @@
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
     <h3 class="w3-wide"><img src="images/logo.png" alt="logo.."width=180><hr></h3>
   </div>
-  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
-    <a href="#" class="w3-bar-item w3-button">Shirts</a>
-    <a href="#" class="w3-bar-item w3-button">Dresses</a>
-    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+  <div class="w3-padding-20 w3-large w3-text-grey" style="font-weight:bold">
+    <a onclick="myAccFuncKurtis()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
       kurtis <i class="fa fa-caret-down"></i>
     </a>
-    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Skinny</a>
-      <a href="#" class="w3-bar-item w3-button">Relaxed</a>
-      <a href="#" class="w3-bar-item w3-button">Bootcut</a>
-      <a href="#" class="w3-bar-item w3-button">Straight</a>
+    <div id="kurtis" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>All</a>
+      <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 100</a>
+      <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 150</a>
+      <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 200</a>
+      <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 250</a>
+      <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 300</a>
     </div>
-    <a href="#" class="w3-bar-item w3-button">Jackets</a>
-    <a href="#" class="w3-bar-item w3-button">Gymwear</a>
-    <a href="#" class="w3-bar-item w3-button">Blazers</a>
-    <a href="#" class="w3-bar-item w3-button">Shoes</a>
+	
+	<a onclick="myAccFuncLeggings()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+      Leggings <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="leggings" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>All</a>
+      <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 50</a>
+      <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 80</a>
+      <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 100</a>
+      <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 150</a>
+      <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 200</a>
+    </div>
   </div>
   <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
@@ -42,8 +50,8 @@
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-  <div class="w3-bar-item  w3-wide"><img src="images/logo.png" alt="logo.." width=180></div>
+<header class="w3-bar w3-top w3-hide-large w3-white w3-xlarge">
+  <div class="w3-bar-item  "><img src="images/logo.png" alt="logo.." width=180></div>
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
 </header>
 
@@ -74,23 +82,23 @@
       <h1 class="w3-hide-small">COLLECTION 2020</h1>
       <h2 class="w3-hide-small">Available at price</h2>
       <h3 class="w3-hide-small"><span class="fa fa-rupee"></span> 100 150 200 300 350</h3>
-      <p><a href="#kurtis" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
+      <p><a href="#kurtisSection" class="w3-button w3-pink w3-padding-large ">SHOP NOW</a></p>
     </div>
   </div>
 
-  <div class="w3-container w3-text-grey" id="kurtis">
+  <div class="w3-container w3-text-grey" id="kurtisSection">
     <p>8 items</p>
   </div>
 
   <!-- Product grid -->
-  <div class="w3-row w3-grayscale">
+  <div class="w3-row ">
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="/w3images/kurtis1.jpg" style="width:100%">
+        <img src="images/k.png" style="width:100%">
         <p>Ripped Skinny kurtis<br><b>$24.99</b></p>
       </div>
       <div class="w3-container">
-        <img src="/w3images/kurtis2.jpg" style="width:100%">
+        <img src="images/k.png" style="width:100%">
         <p>Mega Ripped kurtis<br><b>$19.99</b></p>
       </div>
     </div>
@@ -98,31 +106,31 @@
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="/w3images/kurtis2.jpg" style="width:100%">
+          <img src="images/k.png" style="width:100%">
           <span class="w3-tag w3-display-topleft">New</span>
           <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+            <button class="w3-button w3-pink">Buy now <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
         <p>Mega Ripped kurtis<br><b>$19.99</b></p>
       </div>
       <div class="w3-container">
-        <img src="/w3images/kurtis3.jpg" style="width:100%">
+        <img src="images/k.png" style="width:100%">
         <p>Washed Skinny kurtis<br><b>$20.50</b></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="/w3images/kurtis3.jpg" style="width:100%">
+        <img src="images/k.png" style="width:100%">
         <p>Washed Skinny kurtis<br><b>$20.50</b></p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="/w3images/kurtis4.jpg" style="width:100%">
+          <img src="images/k.png" style="width:100%">
           <span class="w3-tag w3-display-topleft">Sale</span>
           <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+            <button class="w3-button w3-pink">Buy now <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
         <p>Vintage Skinny kurtis<br><b class="w3-text-red">$14.99</b></p>
@@ -131,18 +139,18 @@
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="/w3images/kurtis4.jpg" style="width:100%">
+        <img src="images/k.png" style="width:100%">
         <p>Vintage Skinny kurtis<br><b>$14.99</b></p>
       </div>
       <div class="w3-container">
-        <img src="/w3images/kurtis1.jpg" style="width:100%">
+        <img src="images/k.png" style="width:100%">
         <p>Ripped Skinny kurtis<br><b>$24.99</b></p>
       </div>
     </div>
   </div>
 
   <!-- Subscribe section -->
-  <div class="w3-container w3-black w3-padding-32">
+  <div class="w3-container w3-pink w3-padding-32">
     <h1>Subscribe</h1>
     <p>To get special offers and VIP treatment:</p>
     <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
@@ -160,7 +168,7 @@
           <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
           <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
           <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
-          <button type="submit" class="w3-button w3-block w3-black">Send</button>
+          <button type="submit" class="w3-button w3-block w3-pink">Send</button>
         </form>
       </div>
 
@@ -196,7 +204,7 @@
     </div>
   </footer>
 
-  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+  <div class="w3-pink w3-center w3-padding-24">Powered by: <a href="https://www.vmswebtech.com/" title="VMSwebtech" target="_blank" class="w3-hover-opacity">VMSwebtech.com</a></div>
 
   <!-- End page content -->
 </div>

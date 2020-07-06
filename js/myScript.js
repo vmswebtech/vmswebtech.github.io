@@ -1,7 +1,16 @@
 
 // Accordion 
-function myAccFunc() {
-  var x = document.getElementById("demoAcc");
+function myAccFuncKurtis() {
+  var x = document.getElementById("kurtis");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+// Accordion 
+function myAccFuncLeggings() {
+  var x = document.getElementById("leggings");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
   } else {
@@ -9,8 +18,8 @@ function myAccFunc() {
   }
 }
 
-// Click on the "Jeans" link on page load to open the accordion for demo purposes
-document.getElementById("myBtn").click();
+// shop now
+document.getElementById("kurtis").click();
 
 
 // Open and close sidebar
