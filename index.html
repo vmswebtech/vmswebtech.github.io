@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <title>Shitara</title>
-<meta charset="UTF-8">
+<meta charset="utf-8">
+<link rel="icon" href="images/favicon.png">
+<meta name="description" content="">
+<meta name="keywords" content="shitara, shitara style, shitara style shitara style, online shop gopalganj, online shop hathua, online shop mirganj">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -15,6 +19,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
+<!--for font awesome-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/filter.css">
 <script src="js/myScript.js"></script>
@@ -26,14 +35,14 @@
 <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
   <div class="w3-container w3-display-container w3-padding-4.5" style="box-shadow: 0 0 5px 0.2px gray;height:auto">
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
-    <h3 class="w3-wide"><img src="images/logo.png" alt="logo.."width=180></h3>
+    <a href="index.php"><h3 class="w3-wide"><img src="images/logo.png" alt="logo.."width=180></h3></a>
   </div>
   <div class="w3-padding-50 w3-large w3-text-grey" style="font-weight:bold">
     <a onclick="myAccFuncKurtis()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
       kurtis <i class="fa fa-caret-down"></i>
     </a>
     <div id="kurtis" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>All</a>
+      <a href="kurti.php" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>All</a>
       <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 100</a>
       <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 150</a>
       <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 200</a>
@@ -45,7 +54,7 @@
       Leggings <i class="fa fa-caret-down"></i>
     </a>
     <div id="leggings" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>All</a>
+      <a href="leggings.php" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>All</a>
       <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 50</a>
       <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 80</a>
       <a href="#" class="w3-bar-item w3-button"><span class="fa fa-rupee"></span> 100</a>
@@ -55,12 +64,11 @@
   </div>
   <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
-  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-white " style="box-shadow: 0 0 5px 0.2px gray;">
-  <div class="w3-bar-item"><img src="images/logo.png" alt="logo.." width=130></div>
+  <a href="index.php"><div class="w3-bar-item"><img src="images/logo.png" alt="logo.." width=130></div></a>
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars" style="font-size:20px"></i></a>
 </header>
 
@@ -74,30 +82,31 @@
   <div class="w3-hide-large" style="margin-top:83px; "></div>
   
   <!-- Top header -->
-  <header class="w3-container w3-xlarge">
+  <!--<header class="w3-container w3-xlarge">
     <p class="w3-left">kurtis</p>
     <p class="w3-right top-price">
-      <!--<i class="fa fa-shopping-cart w3-margin-right"></i>
-      <i class="fa fa-search w3-margin-right"></i>-->
+      <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <i class="fa fa-search w3-margin-right"></i>
       <i class="fa fa-filter"></i>
 	  </p>
-  </header>
+  </header>-->
 
   <!-- Image header -->
   <div class="w3-display-container w3-container">
     <img src="images/kurti.jpg" alt="kurtis" style="width:100%">
-    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px;">
+      <h1 class="w3-jumbo w3-hide-small">Kurtis</h1>
       <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
-      <h1 class="w3-hide-large w3-hide-medium">New arrivals</h1>
+      <h1 class="w3-hide-large w3-hide-medium">Kurtis</h1>
       <h1 class="w3-hide-small">COLLECTION 2020</h1>
       <h2 class="w3-hide-small">Available at price</h2>
       <h3 class="w3-hide-small"><span class="fa fa-rupee"></span> 100 150 200 300 350</h3>
-      <p><a href="#kurtisSection" class="w3-button w3-pink w3-padding-large ">SHOP NOW</a></p>
+      <p><a href="#kurtisSection" class="w3-button w3-padding-large " style="background: linear-gradient(to top right, #ff80b3 38%, #0066ff 96%)">SHOP NOW</a></p>
     </div>
   </div>
 
   <div class="w3-container w3-text-grey" id="kurtisSection">
-    <p>8 items</p>
+    <p style="color:green;text-align:center;margin:5px">8 items available</p>
   </div>
 
   <!-- Product grid -->
@@ -158,63 +167,79 @@
 	
 	
   </div>
-
-  <!-- Subscribe section -->
-  <div class="w3-container w3-pink w3-padding-32">
-    <h1>Subscribe</h1>
-    <p>To get special offers and VIP treatment:</p>
-    <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
-    <button type="button" class="w3-button w3-red w3-margin-bottom">Subscribe</button>
-  </div>
   
+ <div class="social" style="background: linear-gradient(to right, #ff80b3 38%, #0066ff 96%);">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0" style="color:#ffffff">Get connected with us on social networks! </h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/profile.php?id=100004123569821" class="fa fa-facebook"></a>
+          <!-- Twitter -->
+          <a href="https://twitter.com/MANJEET12739882" class="fa fa-twitter"></a>
+          <!-- Google +-->
+          <a href="#" class="fa fa-google"></a>
+          <!--Linkedin -->
+          <a href="https://www.linkedin.com/in/manjeet-singh-a54382167/" class="fa fa-linkedin"></a>
+          <!--Instagram-->
+          <a href="https://www.instagram.com/manjeetsingh51097/" class="fa fa-instagram"></a>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+	
   <!-- Footer -->
-  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer" style="background-color:#ff80b3">
     <div class="w3-row-padding">
-      <div class="w3-col s4">
-        <h4>Contact</h4>
-        <p>Questions? Go ahead.</p>
+      <div class="col-sm-4">
+        <h4 style="border-bottom:3px solid #ff80b3;width:13%">Contact</h4>
+        <p class="w3-left">Questions? Go ahead.</p>
         <form action="/action_page.php" target="_blank">
           <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
           <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
           <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
           <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
-          <button type="submit" class="w3-button w3-block w3-pink">Send</button>
+          <button type="submit" class="w3-button w3-block" style="background-color:#ff80b3;color:white"><span class="fa fa-send"></span> Send</button>
         </form>
       </div>
 
-      <div class="w3-col s4">
-        <h4>About</h4>
+      <div class="col-sm-3 w3-justify">
+        <h4 style="border-bottom:3px solid #ff80b3;width:13%;text-align:center">About</h4>
         <p><a href="#">About us</a></p>
-        <p><a href="#">We're hiring</a></p>
         <p><a href="#">Support</a></p>
         <p><a href="#">Find store</a></p>
-        <p><a href="#">Shipment</a></p>
-        <p><a href="#">Payment</a></p>
-        <p><a href="#">Gift card</a></p>
-        <p><a href="#">Return</a></p>
         <p><a href="#">Help</a></p>
       </div>
 
-      <div class="w3-col s4 w3-justify">
-        <h4>Store</h4>
-        <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
-        <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
-        <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
-        <h4>We accept</h4>
-        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
-        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
-        <br>
-        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
-        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
-        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
-        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
-        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+      <div class="col-sm-3 w3-justify">
+        <h4 style="border-bottom:3px solid #ff80b3;width:13%">Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i>Bhagirathi,BR,IN</p>
+        <p><i class="fa fa-fw fa-phone"></i> 7978484354</p>
+        <p><i class="fa fa-fw fa-whatsapp"></i> 7654585137</p>
+        <p><i class="fa fa-fw fa-envelope"></i> support@shitara.in</p>
+      </div>
+	  
+	  <div class="col-sm-2 w3-justify">
+        <h4 style="border-bottom:3px solid #ff80b3;width:13%">We accept</h4>
+        <p><i class="fa fa-fw fa-shopping-cart"></i> Online Orders</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Online Payment</p>
       </div>
     </div>
   </footer>
 
-  <div class="w3-pink w3-center w3-padding-24">Powered by: <a href="https://www.vmswebtech.com/" title="VMSwebtech" target="_blank" class="w3-hover-opacity">VMSwebtech.com</a></div>
+  <div class=" w3-center" style="background: linear-gradient(to right, #ff80b3 38%, #0066ff 96%);padding:5px">Powered by: <a href="https://www.vmswebtech.com/" title="VMSwebtech" target="_blank" class="w3-hover-opacity">VMSwebtech.com</a></div>
 
   <!-- End page content -->
 </div>
